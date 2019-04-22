@@ -133,8 +133,8 @@ public class AnimatorSkeleton extends AnimationTimer{
 	}
 	
 	public void resetColorAndVector() {
-		//hueShift++;
-		//hue = hueShift % 360;
+		hueShift++;
+		hue = hueShift % 360;
 		if (!trailVectors.isEmpty()) {
 			lastVector = trailVectors.getFirst();                                          
 		}
